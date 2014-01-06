@@ -10,7 +10,6 @@ var timerText = document.getElementById('timer_text');
 var button = document.getElementById('main_button');
 var reportText = document.getElementById('report_text');
 
-
 function reduceTime() {
 	if (isBreak && !(timeLeft)) {
 		button.className = 'button start';
@@ -21,7 +20,6 @@ function reduceTime() {
 		timeLeft = 25;
 		pomodoroPaused = 0;
 		timerText.innerHTML = timeLeft;
-		// reportText.innerHTML = pomodorosCompleted + " Pomodoros Completed";
 		window.clearInterval(intervalId);
 		return 0;
 	}

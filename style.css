@@ -48,7 +48,7 @@ body {
 }
 .button {
 	height: 80px;
-	width: 390px;
+	width: 360px;
 	font-size: 36px;
 	line-height: 58px;
 	margin: 10px 5px;
@@ -73,7 +73,7 @@ body {
 #report {
 	float: right;
 	height: 100px;
-	width: 400px;
+	width: 360px;
 }
 #report_text {
 	font-size: 24px;
