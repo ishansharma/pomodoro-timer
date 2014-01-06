@@ -2,4 +2,4 @@
 
 This is a simple Pomodoro Timer app for Chrome. Works offline. 
 
-**Version**: 1
+**Version**: 0.1
